@@ -1,0 +1,16 @@
+{
+    "name": "teohhanhui/stubs-mongodb",
+    "description": "ext-mongodb stubs taken from https://github.com/JetBrains/phpstorm-stubs",
+    "license": "Apache-2.0",
+    "provide": {
+        "ext-mongodb": "1.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MongoDB\\": "MongoDB/"
+        },
+        "files": [
+            "bootstrap.php"
+        ]
+    }
+}
